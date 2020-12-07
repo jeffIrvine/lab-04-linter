@@ -5,6 +5,10 @@ const stripper = (string) => {
     // const array = brackets.split('').filter(item => item.trim());  
 }
 
+module.exports = {
+    stripper
+}
+
 const booger = stripper('$#function(blah, blah) {blah}')
 console.log(booger);
 

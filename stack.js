@@ -14,7 +14,7 @@ class Stack {
     }
 
     peek() {
-        return this.#stack[this.stack.length -1];
+        return this.#stack[this.#stack.length -1];
     }
 }
 
@@ -22,6 +22,6 @@ module.exports = {
     Stack
 }
 
-const newStack = new Stack();
-newStack.push("()[]");
-console.log(newStack);
+// const newStack = new Stack();
+// newStack.push("()[]");
+// console.log(newStack);
